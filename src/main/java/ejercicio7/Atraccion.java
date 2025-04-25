@@ -16,6 +16,7 @@ public class Atraccion {
 	public Atraccion(String nombre, Tipo tipo, int capacidad) {
 		this.nombre = nombre;
 		this.tipo = tipo;
+		if (capacidad<=0) capacidad = 1;
 		this.capacidad = capacidad;
 	}
 
