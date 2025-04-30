@@ -1,7 +1,7 @@
 package ejercicio7;
 
 public class Atraccion {
-	enum Tipo {MONTAÑA_RUSA, ESPECTACULO, TIOVIVO};
+	enum Tipo { MONTAÑA_RUSA, ESPECTACULO, TIOVIVO}
 	private int id;
 	private String nombre;
 	private Tipo tipo;

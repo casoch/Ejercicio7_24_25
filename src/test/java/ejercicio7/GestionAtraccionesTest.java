@@ -28,7 +28,7 @@ public class GestionAtraccionesTest {
     @Test
     public void testGet_InvalidPosition() {
         assertNull(gestion.get(-1));
-        assertNull(gestion.get(2));  // Fuera de rango
+        assertNull(gestion.get(2));  
     }
 
     @Test
